@@ -1,0 +1,8 @@
+<%@ page pageEncoding="UTF-8" %>
+</main>
+<footer>
+
+    <p>Dodane gry w tej sesji: ${empty sessionScope.addedCount ? 0 : sessionScope.addedCount}</p>
+</footer>
+</body>
+</html>

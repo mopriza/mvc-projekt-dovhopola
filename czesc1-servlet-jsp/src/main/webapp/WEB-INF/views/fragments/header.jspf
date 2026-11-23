@@ -1,0 +1,19 @@
+<%@ page pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Baza Gier Wideo</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+</head>
+<body>
+<header>
+    <h1>Baza Gier Wideo</h1>
+    <nav>
+        <a href="${pageContext.request.contextPath}/">Start</a>
+        <a href="${pageContext.request.contextPath}/games/add">Dodaj grę</a>
+        <a href="${pageContext.request.contextPath}/info">Info</a>
+        <a href="${pageContext.request.contextPath}/lifecycle">Lifecycle</a>
+    </nav>
+</header>
+<main>

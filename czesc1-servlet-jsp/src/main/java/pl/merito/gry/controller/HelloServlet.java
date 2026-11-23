@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 @WebServlet("/start") // adres, pod którym działa servlet
 public class HelloServlet extends HttpServlet {
 
-    // GET – np. wejście z paska adresu lub kliknięcie linku
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         resp.setContentType("text/html;charset=UTF-8");
@@ -26,8 +26,8 @@ public class HelloServlet extends HttpServlet {
     // POST – wysłanie formularza
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        req.setCharacterEncoding("UTF-8"); // polskie znaki z formularza
-        String name = req.getParameter("name"); // wartość pola name="name"
+        req.setCharacterEncoding("UTF-8");
+        String name = req.getParameter("name");
 
         resp.setContentType("text/html;charset=UTF-8");
         PrintWriter out = resp.getWriter();

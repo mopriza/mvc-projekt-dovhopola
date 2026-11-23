@@ -1,0 +1,127 @@
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    background-color: #0b0614;
+    color: #f3e8ff;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #1a0b2e 0%, #2d124d 100%);
+    padding: 18px 32px;
+    border-bottom: 2px solid #ff2a85;
+    box-shadow: 0 4px 25px rgba(255, 42, 133, 0.25);
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 1.6rem;
+    color: #ffffff;
+    text-shadow: 0 0 12px rgba(255, 42, 133, 0.7);
+}
+
+header nav a {
+    color: #ff4da6;
+    margin-right: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+header nav a:hover {
+    background: rgba(255, 42, 133, 0.2);
+    color: #ffffff;
+    box-shadow: 0 0 12px rgba(255, 42, 133, 0.4);
+}
+
+main {
+    max-width: 720px;
+    margin: 36px auto;
+    padding: 32px;
+    background-color: #150c25;
+    border: 1px solid #4c1d95;
+    border-radius: 12px;
+    box-shadow: 0 10px 35px rgba(168, 85, 247, 0.2);
+}
+
+h2 {
+    margin-top: 0;
+    color: #ff79c6;
+    border-bottom: 1px solid #3b1764;
+    padding-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    font-weight: 600;
+    color: #e9d5ff;
+}
+
+input {
+    display: block;
+    margin-top: 6px;
+    padding: 10px 14px;
+    width: 100%;
+    max-width: 380px;
+    background-color: #0b0614;
+    border: 1px solid #6b21a8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff2a85;
+    box-shadow: 0 0 0 3px rgba(255, 42, 133, 0.3);
+}
+
+button {
+    margin-top: 22px;
+    padding: 11px 26px;
+    background: linear-gradient(135deg, #ff2a85 0%, #9333ea 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 18px rgba(255, 42, 133, 0.45);
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 24px rgba(255, 42, 133, 0.7);
+}
+
+.error {
+    display: block;
+    margin-top: 4px;
+    color: #ff5555;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+main a {
+    color: #ff4da6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    color: #9370db;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
